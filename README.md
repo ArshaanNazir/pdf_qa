@@ -44,11 +44,9 @@ This repository contains a script (**`pdf_qa.py`**) that uses the **Crew AI** fr
     pip install -r requirements.txt
     ```
 
-4. **(Optional) Set your OpenAI API Key**:
+4. **Set your OpenAI API Key**:
 
     - **Edit** `pdf_qa.py` to include your OpenAI API key.
-
-      ```
 
 ## Usage
 
