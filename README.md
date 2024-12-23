@@ -46,17 +46,14 @@ This repository contains a script (**`pdf_qa.py`**) that uses the **Crew AI** fr
 
 4. **(Optional) Set your OpenAI API Key**:
 
-    - You can **edit** `pdf_qa.py` to include your OpenAI API key, or
-    - **Export** it as an environment variable:
+    - **Edit** `pdf_qa.py` to include your OpenAI API key.
 
-      ```bash
-      export OPENAI_API_KEY="sk-..."
       ```
 
 ## Usage
 
 1. **Prepare your PDF**  
-   Rename or copy your target PDF to `handbook.pdf` (or any PDF file name you wish). Place it in the same directory as `pdf_qa.py` (or note the path you’ll pass as the first argument).
+   Rename or copy your target PDF to `handbook.pdf` (or any PDF file name you wish). Place it in the same directory as `pdf_qa.py` (or note the path you will pass as the first argument).
 
 2. **Run the script**:
 
@@ -71,7 +68,3 @@ This repository contains a script (**`pdf_qa.py`**) that uses the **Crew AI** fr
 3. **View Results**:  
    The script prints partial results after each question, then prints a final JSON with answers to all questions.
 
-### Example Command
-
-```bash
-python pdf_qa.py handbook.pdf --questions '["What is the name of the company?", "Who is the CEO?", "What is their vacation policy?", "What is the termination policy?", "Who is Arshaan?"]'
